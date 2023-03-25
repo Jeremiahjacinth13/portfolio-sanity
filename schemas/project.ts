@@ -34,8 +34,14 @@ export default {
             title: 'Links',
             of: [
                 {
-                    type: 'links',
-                    title: 'Link'
+                    type: 'reference',
+                    title: 'Link',
+                    to: [
+                        {
+                            type: 'links',
+                            title: 'Links'
+                        }
+                    ]
                 }
             ]
         }

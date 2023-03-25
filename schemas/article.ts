@@ -14,9 +14,14 @@ export default {
             title: 'Slug',
         },
         {
+            name: 'coverImage',
+            type: 'image',
+            title: 'Cover Image'
+        },
+        {
             name: 'content',
             type: 'text',
             title: 'Content'
-        }
+        },
     ]
 }
