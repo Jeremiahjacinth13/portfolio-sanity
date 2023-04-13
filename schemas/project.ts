@@ -29,6 +29,11 @@ export default {
             title: 'Content Ⓜ️↓'
         },
         {
+            name: 'public',
+            type: 'boolean',
+            title: 'Public'
+        },
+        {
             name: 'links',
             type: 'array',
             title: 'Links',

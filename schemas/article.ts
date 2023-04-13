@@ -23,5 +23,22 @@ export default {
             type: 'text',
             title: 'Content'
         },
+        {
+            name: 'tags',
+            type: 'array',
+            title: 'Tags',
+            of: [
+                {
+                    type: 'reference',
+                    title: 'Tag',
+                    to: [
+                        {
+                            type: 'tag',
+                            title: 'Tag'
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
